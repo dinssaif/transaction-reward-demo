@@ -1,0 +1,32 @@
+[
+    {
+        "description": "Purchase an Iphone 14",
+        "tranractionAmount": 60,
+        "currency": "$"
+    },
+    {
+        "description": "Purchase a Locket",
+        "tranractionAmount": 120,
+        "currency": "$"
+    },
+    {
+        "description": "Purchase a Book",
+        "tranractionAmount": 90,
+        "currency": "$"
+    },
+    {
+        "description": "Purchase a Laptop",
+        "tranractionAmount": 180,
+        "currency": "$"
+    },
+    {
+        "description": "Purchase an Ipad",
+        "tranractionAmount": 65,
+        "currency": "$"
+    },
+    {
+        "description": "Purchase a watch",
+        "tranractionAmount": 89,
+        "currency": "$"
+    }
+]
