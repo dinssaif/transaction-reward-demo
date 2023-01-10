@@ -13,10 +13,11 @@ function App() {
       setTotalPoints(0);
       const data = transactions.map((item) => {
         const points =
-          ((item.tranractionAmount >= 100 && 50) || 0) +
-          ((item.tranractionAmount > 100 &&
-            (item.tranractionAmount - 100) * 2) ||
-            0);
+          item.tranractionAmount >= 50 && item.tranractionAmount <= 100
+            ? (item.tranractionAmount - 50) * 1
+            : item.tranractionAmount > 100
+            ? 50 + (item.tranractionAmount - 100) * 2
+            : 0;
         setTotalPoints((state) => state + points);
         return { ...item, points };
       });
